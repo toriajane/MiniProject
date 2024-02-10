@@ -1,0 +1,82 @@
+/* GENERAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* TOP-CONTAINER */
+
+.top-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.logo img {
+  border-radius: 50%;
+}
+
+/* NAVIGATION BAR */
+
+.nav-bar {
+  background-color: #388697;
+  overflow: hidden;
+  display: flex;
+}
+
+.nav-bar a {
+  flex-basis: 25%;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background-color: #eec643;
+}
+
+/* MIDDLE-CONTAINER */
+
+.middle-container {
+  padding: 200px;
+  display: flex;
+}
+
+.middle-container-text h1 {
+  margin-bottom: 50px;
+}
+
+.middle-container-text h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.middle-container-text {
+  width: 50%;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.middle-container-image {
+  flex-direction: row;
+  padding-left: 15%;
+}
+
+#laptop-dog {
+  border-radius: 50%;
+  width: 30rem;
+  height: auto;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 10px;
+}

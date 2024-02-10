@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/display_styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top-container">
+      <div class="logo">
+        <img src="/images/code_critters_logo.png" />
+      </div>
+    </div>
+    <div class="nav-bar">
+      <a href="/index.html">Home</a>
+      <a href="/pages/syntax.html">Syntax</a>
+      <a href="/pages/display.html">Display</a>
+      <a href="/pages/animations.html">Animations</a>
+    </div>
+
+    <div class="display-animals">
+      <div class="selection">
+        <button onclick="set_animal_pen_space_around()">Around</button>
+        <button onclick="set_animal_pen_space_evenly()">Evenly</button>
+        <button onclick="set_animal_pen_space_between()">Between</button>
+        <button onclick="set_animal_pen_space_none()">None</button>
+      </div>
+
+      <div id="animal-pen" class="animal-pen">
+        <img class="icon" src="/images/cat_icon.png" />
+        <img class="icon" src="/images/parrot_icon.png" />
+        <img class="icon" src="/images/shiba_icon.png" />
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
