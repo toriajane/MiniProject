@@ -20,7 +20,7 @@
 
 button {
   width: 200px;
-  height: 60px;
+  height: auto;
   margin: 30px;
   padding: 20px 30px;
   background-color: #15616d;
@@ -47,4 +47,36 @@ button:hover {
 .icon {
   max-width: 10rem;
   object-fit: contain;
+}
+
+/* Phone */
+
+@media only screen and (max-width: 320px) {
+  .display-text {
+    margin: 30px;
+  }
+
+  .display-animals {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .animal-pen {
+    margin: 10%;
+  }
+
+  .icon {
+    max-width: 2rem;
+    object-fit: contain;
+  }
+
+  .selection {
+    margin: auto;
+  }
+
+  button {
+    font-size: 16px;
+    width: 150px;
+    margin: 15px;
+  }
 }
