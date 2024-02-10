@@ -24,23 +24,36 @@
 
 /* NAVIGATION BAR */
 
-.nav-bar {
+nav {
   background-color: #023047;
   overflow: hidden;
-  display: flex;
 }
 
-.nav-bar a {
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
   flex-basis: 25%;
-  text-align: center;
+  list-style: none;
+}
+
+a {
+  display: flex;
   padding: 20px;
   color: white;
   font-size: 1.25rem;
   font-weight: 600;
   text-decoration: none;
+  justify-content: center;
 }
 
-.nav-bar a:hover {
+a:hover {
+  background-color: #0077b6;
+}
+
+nav a.active {
   background-color: #0077b6;
 }
 
