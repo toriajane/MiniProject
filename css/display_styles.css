@@ -49,7 +49,7 @@ button:hover {
   object-fit: contain;
 }
 
-/* Phone */
+/* MOBILE */
 
 @media only screen and (max-width: 320px) {
   .display-text {
