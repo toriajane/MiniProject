@@ -1,0 +1,13 @@
+.syntax-text {
+  margin: 100px 200px 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: 30px;
+}
+
+.syntax-interactive {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 200px 100px;
+}
