@@ -6,6 +6,11 @@
   gap: 30px;
 }
 
+.syntax.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .syntax-interactive {
   display: flex;
   flex-direction: row;
@@ -23,6 +28,18 @@
 }
 
 .hamster {
+  border-style: dashed;
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-basis: 5%;
+}
+
+.turtle img {
+  max-width: 5rem;
+}
+
+.turtle {
   border-style: dashed;
   margin: 50px;
   padding: 50px;
