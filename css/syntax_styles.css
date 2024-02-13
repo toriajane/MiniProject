@@ -18,10 +18,14 @@
   flex-direction: column;
 }
 
-.syntax-example {
+.cat img {
+  max-width: 5rem;
+}
+
+.cat {
   border-style: dashed;
   margin: 50px;
-  padding: 30px;
+  padding: 50px;
   display: flex;
-  flex-basis: 30%;
+  flex-basis: 5%;
 }

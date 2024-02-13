@@ -1,4 +1,4 @@
-.display-text {
+.flexbox-text {
   margin: 100px 200px 100px;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   gap: 30px;
 }
 
-.display-animals {
+.flexbox-animals {
   display: flex;
   flex-direction: row;
   margin: 100px;
@@ -52,11 +52,11 @@ button:hover {
 /* MOBILE */
 
 @media only screen and (max-width: 320px) {
-  .display-text {
+  .flexbox-text {
     margin: 30px;
   }
 
-  .display-animals {
+  .flexbox-animals {
     flex-direction: column;
     margin: auto;
   }
