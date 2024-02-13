@@ -18,11 +18,11 @@
   flex-direction: column;
 }
 
-.cat img {
+.hamster img {
   max-width: 5rem;
 }
 
-.cat {
+.hamster {
   border-style: dashed;
   margin: 50px;
   padding: 50px;
