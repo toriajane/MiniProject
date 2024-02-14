@@ -86,8 +86,22 @@ nav a.active {
 
 #laptop-dog {
   border-radius: 50%;
-  width: 30rem;
+  width: 500px;
   height: auto;
+}
+.containerSection {
+  padding-top: 30px;
+}
+.imgHome {
+  background-image: url("../images/dog_laptop.jpg");
+  width: 100%;
+  height: 600px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin: 30px;
 }
 
 /* FOOTER */
