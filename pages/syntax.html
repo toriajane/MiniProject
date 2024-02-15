@@ -42,10 +42,10 @@
         <p>
           .hamster { <br /><br />
           background-color:
-          <select>
-            <option>blue</option>
-            <option>yellow</option>
-            <option>green</option>
+          <select id="dropdown-hamster" onchange = "set_background_color()">
+            <option value="blue">blue</option>
+            <option value="yellow">yellow</option>
+            <option value="green">green</option>
           </select>
           ; <br /><br />}
         </p>
@@ -55,14 +55,14 @@
       </div>
       </div>
       <div class="syntax-interactive">
-        <div class="syntax-option">
+        <div class="syntax-option" id="border_style">
           <p>
             .turtle { <br /><br />
             border-style:
-            <select>
-              <option>dashed</option>
-              <option>solid</option>
-              <option>dotted</option>
+            <select id="dropdown-turtle" onchange = "set_border_style()">
+              <option value="dashed">dashed</option>
+              <option value="solid">solid</option>
+              <option value="dotted">dotted</option>
             </select>
             ; <br /><br />}
           </p>
@@ -72,6 +72,7 @@
         </div>
       </div>
     </div>
+    <script src="/script.js"></script>
   </body>
   <footer>© 2024 CAWEB Group Q</footer>
 </html>
