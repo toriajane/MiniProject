@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  text-align: justify;
 }
 
 /* TOP-CONTAINER */
@@ -82,11 +83,6 @@ nav a.active {
   text-align: justify;
 }
 
-.middle-container-image {
-  flex-direction: row;
-  padding-left: 15%;
-}
-
 #laptop-dog {
   border-radius: 50%;
   width: 500px;
@@ -104,7 +100,7 @@ nav a.active {
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  margin: 30px;
+  margin: 125px;
 }
 
 .animationExample {
