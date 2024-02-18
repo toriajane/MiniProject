@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: justify;
 }
 
 /* TOP-CONTAINER */
@@ -32,6 +34,7 @@ nav {
 ul {
   display: flex;
   flex-direction: row;
+  margin-bottom: 0 !important;
 }
 
 li {
@@ -42,19 +45,21 @@ li {
 a {
   display: flex;
   padding: 20px;
-  color: white;
+  color: white !important;
   font-size: 1.25rem;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: none !important;
   justify-content: center;
 }
 
 a:hover {
   background-color: #0077b6;
+  color: white !important;
 }
 
 nav a.active {
   background-color: #0077b6;
+  color: white;
 }
 
 /* MIDDLE-CONTAINER */
@@ -79,11 +84,6 @@ nav a.active {
   text-align: justify;
 }
 
-.middle-container-image {
-  flex-direction: row;
-  padding-left: 15%;
-}
-
 #laptop-dog {
   border-radius: 50%;
   width: 500px;
@@ -101,14 +101,129 @@ nav a.active {
   background-size: cover;
   background-position: center;
   overflow: hidden;
-  margin: 30px;
+  margin: 125px;
 }
 
+.animationExample {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 4s;
+  border-radius: none;
+}
+@keyframes example {
+  from {
+    background-color: blue;
+    border-radius: none;
+  }
+  to {
+    background-color: pink;
+    border-radius: 50%;
+  }
+}
+
+.durationExample {
+  width: 600px;
+  position: relative;
+}
+
+.animationDurationEx {
+  width: 100px;
+  height: 100px;
+  animation-name: example2;
+  position: absolute;
+  right: 20px;
+  animation-duration: 10s;
+}
+
+@keyframes example2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+.animationDurationEx2 {
+  width: 100px;
+  height: 100px;
+  animation-name: example3;
+  position: absolute;
+  top: 250px;
+  right: 20px;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+}
+
+@keyframes example3 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 100%;
+  }
+}
+.transitiondiv {
+  width: 340px;
+  height: 250px;
+  background-image: url(https://www.nylabone.com/-/media/project/oneweb/nylabone/images/dog101/activities-fun/10-great-small-dog-breeds/pug-and-dachshund-cropped.jpg?h=320&iar=0&w=710&hash=4EFC85AEE81CC2DAC436AB398F0D1A33);
+  transition: width 2s;
+}
+
+.transitiondiv:hover {
+  width: 700px;
+}
+
+.transitiondelaydiv {
+  width: 400px;
+  height: 650px;
+  background-image: url(https://prideandgroom.com/cdn/shop/articles/white_dogs_2000x_63d29ed5-274a-46fd-9bbc-181ed8a0c1b2.webp?v=1695716923&width=1500);
+  transition: width 3s;
+  transition-delay: 2s;
+}
+
+.transitiondelaydiv:hover {
+  width: 800px;
+}
+.transitionduration {
+  width: 300px;
+  height: 500px;
+  background-image: url(https://www.akc.org/wp-content/uploads/2018/05/Three-Australian-Shepherd-puppies-sitting-in-a-field.jpg);
+  transition-property: width;
+  transition-duration: 8s;
+}
+.transitionduration:hover {
+  width: 600px;
+}
+.transitionduration2 {
+  width: 300px;
+  height: 500px;
+  background-image: url(https://www.akc.org/wp-content/uploads/2018/05/Three-Australian-Shepherd-puppies-sitting-in-a-field.jpg);
+  transition-property: width;
+  transition-duration: 1s;
+}
+.transitionduration2:hover {
+  width: 600px;
+}
+
+.learnmore {
+  color: black !important;
+}
+.learnmore:hover {
+  color: #0077b6 !important;
+  background-color: transparent !important;
+}
 /* FOOTER */
 
 footer {
+  margin-top: 100px;
   text-align: center;
+  font-weight: 700;
   padding: 20px;
+  color: #ffffff;
+  background-color: #023047;
 }
 
 /* MOBILE */
