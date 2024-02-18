@@ -7,6 +7,10 @@
   gap: 30px;
 }
 
+li {
+  list-style: circle;
+}
+
 .grid-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
