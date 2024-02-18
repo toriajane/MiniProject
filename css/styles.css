@@ -125,11 +125,64 @@ nav a.active {
     border-radius: 50%;
   }
 }
+
+.durationExample {
+  width: 600px;
+  position: relative;
+}
+
+.animationDurationEx {
+  width: 100px;
+  height: 100px;
+  animation-name: example2;
+  position: absolute;
+  right: 20px;
+  animation-duration: 10s;
+}
+
+@keyframes example2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+.animationDurationEx2 {
+  width: 100px;
+  height: 100px;
+  animation-name: example3;
+  position: absolute;
+  top: 250px;
+  right: 20px;
+  animation-duration: 5s;
+}
+
+@keyframes example3 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 100%;
+  }
+}
+.transitiondiv {
+  width: 340px;
+  height: 250px;
+  background-image: url(https://www.nylabone.com/-/media/project/oneweb/nylabone/images/dog101/activities-fun/10-great-small-dog-breeds/pug-and-dachshund-cropped.jpg?h=320&iar=0&w=710&hash=4EFC85AEE81CC2DAC436AB398F0D1A33);
+  transition: width 2s;
+}
+
+.transitiondiv:hover {
+  width: 700px;
+}
+
 .learnmore {
-  color: black;
+  color: black !important;
 }
 .learnmore:hover {
-  color: #0077b6;
+  color: #0077b6 !important;
   background-color: transparent !important;
 }
 /* FOOTER */
