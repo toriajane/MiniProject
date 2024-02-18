@@ -119,7 +119,13 @@ nav a.active {
     background-color: pink;
   }
 }
-
+.learnmore {
+  color: black;
+}
+.learnmore:hover {
+  color: #0077B6;
+  background-color: transparent !important;
+}
 /* FOOTER */
 
 footer {
