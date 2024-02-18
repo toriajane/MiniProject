@@ -105,21 +105,23 @@ nav a.active {
 }
 
 .animationExample {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
+  width: 200px;
+  height: 200px;
+  background-image: url(https://img.freepik.com/free-photo/cute-spitz_144627-7076.jpg?w=826&t=st=1708292953~exp=1708293553~hmac=1ec9c8296f5d89fd5345e822cbad69e2af390fed5072b4c8b48af6f454eaec50);
+  background-size: contain;
   animation-name: example;
   animation-duration: 4s;
-  border-radius: none;
+  border-radius: 0;
+  border: solid blueviolet;
 }
 @keyframes example {
   from {
-    background-color: blue;
-    border-radius: none;
+    border-radius: 0;
+    border: solid blueviolet;
   }
   to {
-    background-color: pink;
     border-radius: 50%;
+    border: solid #df86ba;
   }
 }
 
