@@ -222,12 +222,16 @@ nav a.active {
 footer {
   margin-top: 100px;
   text-align: center;
+  font-size: 18px;
   font-weight: 700;
   padding: 20px;
   color: #ffffff;
   background-color: #023047;
 }
 
+a {
+  font-size: 18px;
+}
 /* MOBILE */
 
 @media only screen and (max-width: 320px) {
@@ -243,5 +247,9 @@ footer {
   a {
     font-size: 1rem;
     font-weight: 600;
+  }
+
+  .imgHome {
+    margin: 0px;
   }
 }
