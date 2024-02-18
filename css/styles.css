@@ -104,9 +104,26 @@ nav a.active {
   margin: 30px;
 }
 
+.animationExample {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: pink;
+  }
+}
+
 /* FOOTER */
 
 footer {
+  margin-top: 20px;
   text-align: center;
   padding: 20px;
 }
