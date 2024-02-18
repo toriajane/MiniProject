@@ -153,6 +153,7 @@ nav a.active {
   top: 250px;
   right: 20px;
   animation-duration: 5s;
+  animation-iteration-count: 3;
 }
 
 @keyframes example3 {
@@ -184,6 +185,26 @@ nav a.active {
 
 .transitiondelaydiv:hover {
   width: 800px;
+}
+.transitionduration {
+  width: 300px;
+  height: 500px;
+  background-image: url(https://www.akc.org/wp-content/uploads/2018/05/Three-Australian-Shepherd-puppies-sitting-in-a-field.jpg);
+  transition-property: width;
+  transition-duration: 8s;
+}
+.transitionduration:hover {
+  width: 600px;
+}
+.transitionduration2 {
+  width: 300px;
+  height: 500px;
+  background-image: url(https://www.akc.org/wp-content/uploads/2018/05/Three-Australian-Shepherd-puppies-sitting-in-a-field.jpg);
+  transition-property: width;
+  transition-duration: 1s;
+}
+.transitionduration2:hover {
+  width: 600px;
 }
 
 .learnmore {
