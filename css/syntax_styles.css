@@ -6,9 +6,9 @@
   gap: 30px;
 }
 
-.syntax.container {
-  display: flex;
-  flex-direction: column;
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .syntax-interactive {
@@ -24,26 +24,38 @@
   flex-basis: 25%;
 }
 
-.hamster img {
+.syntax-interactive img {
   max-width: 5rem;
 }
 
-.hamster {
-  border-style: dashed;
+.syntax-interactive img {
   margin: 50px;
   padding: 50px;
   display: flex;
   flex-basis: 5%;
 }
 
-.turtle img {
-  max-width: 5rem;
-}
+/*MOBILE*/
 
-.turtle {
-  border-style: dashed;
-  margin: 50px;
-  padding: 50px;
-  display: flex;
-  flex-basis: 5%;
+@media only screen and (max-width: 320px) {
+  .syntax-text {
+    margin: 30px;
+  }
+
+  .grid-wrapper {
+    display: block;
+  }
+
+  .syntax-interactive {
+    margin: 30px;
+    flex-direction: column;
+  }
+
+  .syntax-option {
+    margin: 50px;
+  }
+
+  .syntax-interactive img {
+    max-width: 3rem;
+  }
 }

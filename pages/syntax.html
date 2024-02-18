@@ -32,18 +32,21 @@
     <div class="syntax-text">
       <h1>What is CSS Syntax?</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, earum
-        enim quaerat accusantium vel in incidunt necessitatibus. Earum quisquam
-        eius nulla temporibus expedita repellendus? Quas quae eligendi eos totam
-        dignissimos.
+        CSS Syntax refers to the set of rules for writing CSS. <br><br>
+        A CSS rule is comprised of a selector, a property, and a value.<br><br>
+        The <em>selector</em> determines the HTML element that is being targeted for the following CSS styles, and is followed by an opening curly brace which marks the beginning of the CSS code. 
+        The <em>property</em> represents the specific characteristic of the HTML element which is being altered.
+        The <em>value</em> is separated by the property by a colon and defines how the element should be styled.<br><br>
+        The following interactive examples demonstrate the output after changing the value or property of a CSS declaration:
       </p>
     </div>
+    <div class="grid-wrapper">
     <div class="syntax-interactive">
       <div class="syntax-option">
         <p>
-          .hamster { <br /><br />
+          .maltese { <br /><br />
           background-color:
-          <select id="dropdown-hamster" onchange = "set_background_color()">
+          <select id="dropdown-maltese" onchange = "set_background_color()">
             <option value="blue">blue</option>
             <option value="yellow">yellow</option>
             <option value="green">green</option>
@@ -51,16 +54,16 @@
           ; <br /><br />}
         </p>
       </div>
-      <div id="hamster" class="hamster">
-        <img class="icon" src="/images/hamster_icon.png" />
+      <div id="maltese" class="maltese">
+        <img class="icon" src="/images/maltese_icon.png" />
       </div>
       </div>
       <div class="syntax-interactive">
         <div class="syntax-option" id="border_style">
           <p>
-            .turtle { <br /><br />
+            .corgi { <br /><br />
             border-style:
-            <select id="dropdown-turtle" onchange = "set_border_style()">
+            <select id="dropdown-corgi" onchange = "set_border_style()">
               <option value="dashed">dashed</option>
               <option value="solid">solid</option>
               <option value="dotted">dotted</option>
@@ -68,11 +71,46 @@
             ; <br /><br />}
           </p>
         </div>
-        <div id="turtle" class="turtle">
-          <img class="icon" src="/images/turtle_icon.png" />
+        <div id="corgi" class="corgi">
+          <img class="icon" src="/images/corgi_icon.png" />
+        </div>
+      </div>
+      <div class="syntax-interactive">
+        <div class="syntax-option" id="">
+          <p>
+            .retriever { <br /><br />
+              opacity:
+            <select id="dropdown-retriever" onchange = "set_opacity()">
+              <option value="100%">100%</option>
+              <option value="50%">50%</option>
+              <option value="0%">0%</option>
+            </select>
+            ; <br /><br />}
+          </p>
+        </div>
+        <div id="retriever" class="retriever">
+          <img id= "retriever_icon" class="icon" src="/images/retriever_icon.png" />
+        </div>
+      </div>
+      <div class="syntax-interactive">
+        <div class="syntax-option" id="">
+          <p>
+            .terrier { <br /><br />
+              rotate:
+            <select id="dropdown-terrier" onchange = "set_angle()">
+              <option value="0deg">0deg</option>
+              <option value="90deg">90deg</option>
+              <option value="180deg">180deg</option>
+            </select>
+            ; <br /><br />}
+          </p>
+        </div>
+        <div id="terrier" class="terrier">
+          <img id= "terrier_icon" class="icon" src="/images/terrier_icon.png" />
         </div>
       </div>
     </div>
+  </div>
     <script src="/script.js"></script>
   </body>
   <footer>© 2024 CAWEB Group Q: Victoria Embleton and Indira Ramirez</footer>
