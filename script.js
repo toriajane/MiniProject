@@ -21,13 +21,13 @@
 
   function set_background_color() {
     let background_color = document.getElementById("dropdown-maltese");
-    let maltese_element = document.getElementById("maltese");
+    let maltese_element = document.getElementById("maltese_icon");
     maltese_element.style.backgroundColor = background_color.value;
   }
 
   function set_border_style() {
     let border_style = document.getElementById("dropdown-corgi");
-    let corgi_element = document.getElementById("corgi");
+    let corgi_element = document.getElementById("corgi_icon");
     corgi_element.style.borderStyle = border_style.value;
   }
 
