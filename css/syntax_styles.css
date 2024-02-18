@@ -30,16 +30,8 @@
 
 .syntax-interactive img {
   margin: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-basis: 5%;
-}
-
-.hamster img {
-  max-height: 8rem;
 }
 
 /*MOBILE*/
