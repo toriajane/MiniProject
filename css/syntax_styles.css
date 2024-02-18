@@ -1,8 +1,9 @@
 .syntax-text {
-  margin: 100px 200px 100px;
+  margin: 100px 200px 0px;
   display: flex;
   flex-direction: column;
   text-align: justify;
+  font-size: 18px;
   gap: 30px;
 }
 
