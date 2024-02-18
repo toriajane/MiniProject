@@ -6,6 +6,14 @@
   gap: 30px;
 }
 
+ol {
+  padding-left: 20px;
+}
+
+li {
+  list-style: circle;
+}
+
 .flexbox-animals {
   display: flex;
   flex-direction: row;
