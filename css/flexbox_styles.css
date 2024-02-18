@@ -10,11 +10,11 @@ ol {
   padding-left: 20px;
 }
 
-li {
+.flexboxLi {
   list-style: circle;
 }
 
-.flexbox-animals {
+.flexbox-dogs {
   display: flex;
   flex-direction: row;
   margin: 100px;
@@ -44,7 +44,7 @@ button:hover {
   background-color: #0077b6;
 }
 
-.animal-pen {
+.dog-pen {
   border-style: dashed;
   margin: 50px;
   padding: 30px;
@@ -64,12 +64,12 @@ button:hover {
     margin: 30px;
   }
 
-  .flexbox-animals {
+  .flexbox-dogs {
     flex-direction: column;
     margin: auto;
   }
 
-  .animal-pen {
+  .dog-pen {
     margin: 10%;
   }
 
