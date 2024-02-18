@@ -32,22 +32,27 @@
     <div class="flexbox-text">
       <h1>What is CSS Flexbox?</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione debitis
-        corrupti eos veritatis blanditiis inventore voluptas odit vel molestiae!
-        Aliquid asperiores, et quisquam placeat aut iusto similique corrupti
-        numquam rerum.
+        CSS Flexbox is a one-dimensional layout method used to easily adjust the size and position of items in order to create a flexible and responsive design.
+        A one-dimensional layout refers to laying out items in a row or column. 
       </p>
       <h3>display</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis
-        aliquid blanditiis nobis laudantium quos voluptates facere saepe
-        exercitationem? Asperiores veritatis, fuga blanditiis obcaecati aperiam
-        veniam consequuntur corrupti optio nemo!
+        The <em>display</em> property is used to determine how the element is displayed. The default display value for most elements is either <em>block</em> or <em>inline</em>. 
+        However, if you set the value to <em>flex</em>, items will be positioned according to the Flexbox layout method:
+      </br>
+    </br>
+      display: flex
+        </p>
         <h3>justify-content</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sunt rem neque accusamus excepturi, fugit reprehenderit. Vero animi fugit assumenda quis quisquam dolore illo hic inventore, iste ipsa culpa tempore.</p>
+        <p>The <em>justify-content</em> property is used to specify how the browser distributes space between and around items along the main axis of a flex container.<br>A few important values for this property include:</p>
+        <ol>
+          <li>space-around</li>
+          <li>space-evenly</li>
+          <li>space-between</li>
+        </ol>
+        <p>The following interactive example demonstrates how these values affect the layout:</p>
       </p>
     </div>
-
     <div class="flexbox-animals">
       <div class="selection">
         <button onclick="set_animal_pen_space_around()">Around</button>

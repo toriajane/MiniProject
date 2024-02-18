@@ -1,3 +1,5 @@
+/*FLEXBOX EXAMPLE*/
+
 function set_animal_pen_space_around() {
     let animal_pen = document.getElementById("animal-pen");
     animal_pen.style.justifyContent = "space-around";
