@@ -32,6 +32,7 @@ nav {
 ul {
   display: flex;
   flex-direction: row;
+  margin-bottom: 0 !important;
 }
 
 li {
@@ -42,19 +43,21 @@ li {
 a {
   display: flex;
   padding: 20px;
-  color: white;
+  color: white !important;
   font-size: 1.25rem;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: none !important;
   justify-content: center;
 }
 
 a:hover {
   background-color: #0077b6;
+  color: white !important;
 }
 
 nav a.active {
   background-color: #0077b6;
+  color: white;
 }
 
 /* MIDDLE-CONTAINER */
@@ -110,20 +113,23 @@ nav a.active {
   background-color: blue;
   animation-name: example;
   animation-duration: 4s;
+  border-radius: none;
 }
 @keyframes example {
   from {
     background-color: blue;
+    border-radius: none;
   }
   to {
     background-color: pink;
+    border-radius: 50%;
   }
 }
 .learnmore {
   color: black;
 }
 .learnmore:hover {
-  color: #0077B6;
+  color: #0077b6;
   background-color: transparent !important;
 }
 /* FOOTER */
